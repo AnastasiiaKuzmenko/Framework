@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Products Management" verbose="1" >
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserFirefox" value="firefox"/>
+    <parameter name="browserIE" value="ie"/>
+    <test name="CreateNewProduct" >
+        <classes>
+            <class name="tests.CreateProductTest" />
+        </classes>
+
+    </test>
+
+</suite>
